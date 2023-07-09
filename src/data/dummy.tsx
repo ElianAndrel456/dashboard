@@ -43,6 +43,7 @@ import product5 from './product5.jpg'
 import product6 from './product6.jpg'
 import product7 from './product7.jpg'
 import product8 from './product8.jpg'
+import { AxisModel } from '@syncfusion/ej2-react-charts'
 
 export const gridOrderImage = ({ productImage }: { productImage: string }) => (
 	<div>
@@ -3000,7 +3001,7 @@ export const stackedCustomSeries = [
 	},
 ]
 
-export const stackedPrimaryXAxis = {
+export const stackedPrimaryXAxis: AxisModel = {
 	majorGridLines: { width: 0 },
 	minorGridLines: { width: 0 },
 	majorTickLines: { width: 0 },
@@ -3011,7 +3012,7 @@ export const stackedPrimaryXAxis = {
 	valueType: 'Category',
 }
 
-export const stackedPrimaryYAxis = {
+export const stackedPrimaryYAxis: AxisModel = {
 	lineStyle: { width: 0 },
 	minimum: 100,
 	maximum: 400,

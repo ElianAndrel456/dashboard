@@ -10,7 +10,7 @@ export const Button = ({
 	color: string
 	bgColor: string
 	text: string
-	size: 'md' | 'lg' | 'xl'
+	size?: 'md' | 'lg' | 'xl'
 	borderRadius: string
 }) => {
 	return (
